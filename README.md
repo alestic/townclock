@@ -11,3 +11,9 @@ please read the following article:
 
 > https://alestic.com/2015/05/aws-lambda-recurring-schedule/
 
+Notes:
+
+- This repository does not explain all of the steps necessary to set
+  up your own TownClock. This assumes the pre-existence of the SNS
+  topic, AWS Lambda function, CloudWatch Scheuduled Event Rule, and
+  IAM permissions.
